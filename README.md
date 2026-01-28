@@ -30,12 +30,6 @@ Dataset source: https://www.kaggle.com/datasets/vijayaragulvr/wildfire-predictio
 - Evaluated model performance using appropriate classification metrics
 
 
-## Streamlit Application
-A locally hosted Streamlit web application was built to allow users to input
-environmental variables and receive wildfire occurrence predictions from the
-trained model.
-
-
 ## Results
 The final model demonstrated strong predictive performance, showing the
 effectiveness of feature reduction and hyperparameter optimisation. The project
