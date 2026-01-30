@@ -256,9 +256,9 @@ st.markdown("The chosen metric for model evaluation was recall to prioritise the
 col1, col2, col3 = st.columns(3)
 
 # assign metrics to each column
-col1.metric("Recall", "96%", "High sensitivity")
-col2.metric("Precision", "56%", "Some false alarms")
-col3.metric("Overall Accuracy", "60%", "Overall correctness")
+col1.metric("Recall", "92%", "High sensitivity")
+col2.metric("Precision", "58%", "Some false alarms")
+col3.metric("Overall Accuracy", "62%", "Overall correctness")
 
 st.markdown("""
 > High recall achieved meaning that most wildfire events are detected.
@@ -288,7 +288,7 @@ with col2:
     st.markdown(
         "<p style='color:#374151;'>"
         "<strong>Interpretation:</strong> The model achieves very high "
-        "recall for wildfires (TP / (TP+FN) ≈ 96%), meaning most actual "
+        "recall for wildfires (TP / (TP+FN) ≈ 92%), meaning most actual "
         "fires are detected. <br><br>"
         "However, there are many false positives (FP), which is an "
         "intentional trade-off for early warning."
