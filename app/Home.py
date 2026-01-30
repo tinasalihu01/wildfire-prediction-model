@@ -19,7 +19,7 @@ st.markdown(
 )
 
 # image/banner at the top
-st.image("app/assets/wildfire_banner.jpg", use_container_width=True)
+st.image("app/assets/wildfire_banner.jpg", use_column_width=True)
 
 # introduction
 st.markdown(f"""
