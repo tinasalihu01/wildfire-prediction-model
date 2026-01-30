@@ -96,19 +96,21 @@ and spatial features related to wildfire occurrence. Features include:
 
 1. Create and activate a conda environment:
 
-```bash
-conda create -n wildfire python=3.10
-conda activate wildfire
+      conda create -n wildfire python=3.10  
+      conda activate wildfire
 
 2. Install dependencies:
 
-pip install -r requirements.txt
+      pip install -r requirements.txt
 
-3. Run the Streamlit app:
-cd app
-streamlit run Home.py
+3. Run the Streamlit app in terminal:
+
+      cd app
+      streamlit run Home.py
 
 4. Navigate through the app using the sidebar.
+
+---
 
 ## Notes
 
