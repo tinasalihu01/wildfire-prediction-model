@@ -285,16 +285,13 @@ with col2:
     # interpretation of matrix
     st.markdown("\n")
     st.markdown("\n")
-    st.markdown(
-        "<p style='color:#374151;'>"
-        "<strong>Interpretation:</strong> The model achieves very high "
-        "recall for wildfires (TP / (TP+FN) ≈ 92%), meaning most actual "
-        "fires are detected. <br><br>"
-        "However, there are many false positives (FP), which is an "
-        "intentional trade-off for early warning."
-        "</p>",
-        unsafe_allow_html=True
-    )
+    st.markdown("""
+        **Interpretation:** The model achieves very high 
+        recall for wildfires (TP / (TP+FN) ≈ 92%), meaning most actual 
+        fires are detected. \n
+        However, there are many false positives (FP), which is an 
+        intentional trade-off for early warning.
+    """)
 
 st.markdown("### Decision Threshold")
 
