@@ -108,15 +108,12 @@ with col1:
 with col2:
     st.markdown("\n")
     st.markdown("\n")
-    st.markdown(
-        "<p style='color:#374151;'>"
-        "<strong>Key observation:</strong> Nighttime conditions exhibit "
-        "substantially higher wildfire occurrence rates.<br><br>"
-        "This may reflect delayed detection, reporting artifacts, or "
-        "temporal aggregation effects rather than true ignition timing."
-        "</p>",
-        unsafe_allow_html=True
-    )
+    st.markdown("""
+        **Key observation:** Nighttime conditions exhibit
+        substantially higher wildfire occurrence rates. \n
+        This may reflect delayed detection, reporting artifacts, or 
+        temporal aggregation effects rather than true ignition timing.
+        """)
 
 
 ## ENVIRONMENTAL CONDITIONS
@@ -200,14 +197,11 @@ ax.grid(True, linestyle="--", alpha=0.3)
 
 st.pyplot(fig)
 
-st.markdown(
-    "<p style='color:#374151;'>"
-    "Wind direction variability shows only marginal differences between fire "
-    "and no-fire observations, reinforcing the limited explanatory power of "
-    "single variables in isolation."
-    "</p>",
-    unsafe_allow_html=True
-)
+st.markdown("""
+    Wind direction variability shows only marginal differences between fire 
+    and no-fire observations, reinforcing the limited explanatory power of 
+    single variables in isolation.
+""")
 
 
 ## SUMMARY
