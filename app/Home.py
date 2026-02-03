@@ -13,10 +13,7 @@ ACCENT = "#bf603d"
 SECONDARY = "#4B627D"
 
 # page title
-st.markdown(
-    f"<h1 style='color:{PRIMARY};'>Wildfire Risk Prediction System</h1>",
-    unsafe_allow_html=True
-)
+st.title("Wildfire Risk Prediction System")
 
 # image/banner at the top
 st.image("app/assets/wildfire_banner.jpg", use_column_width=True)
